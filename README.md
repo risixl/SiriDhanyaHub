@@ -10,6 +10,12 @@
 
 ---
 
+<p align="center">
+  <img src="assets/screenshots/home_screen.jpeg" alt="Siri-Dhanya Hub Home Screen" width="280"/>
+</p>
+
+---
+
 ## 📖 Table of Contents
 
 - [About the Project](#-about-the-project)
@@ -33,11 +39,11 @@
 
 ## 🌱 About the Project
 
-**Siri-Dhanya Hub** is a cross-platform mobile application built with **Flutter** that promotes Karnataka's traditional millet ecosystem. Millets are highly nutritious, climate-resilient crops gaining national importance, yet public awareness around varieties, mandi prices, traditional recipes, and direct farmer connectivity remains limited.
+**Siri-Dhanya Hub** (ಸಿರಿ-ಧಾನ್ಯ ಹಬ್) is a cross-platform mobile application built with **Flutter** that promotes Karnataka's traditional millet ecosystem. Millets are highly nutritious, climate-resilient crops gaining national importance, yet public awareness around varieties, mandi prices, traditional recipes, and direct farmer connectivity remains limited.
 
 This app brings together four core functionalities — **market price tracking, traditional recipes, health awareness, and FPO connectivity** — into one accessible mobile experience designed for consumers, health-conscious users, farmers, and Farmer Producer Organizations.
 
-> Developed as part of an Android App Development internship at **MindMatrix.io**.
+> 🎓 Developed as part of an Android App Development internship at **MindMatrix.io**.
 
 ---
 
@@ -58,52 +64,78 @@ Farmers and consumers in the millet ecosystem face several challenges:
 ## ✨ Key Features
 
 ### 🏠 Dashboard Home
-A clean landing screen displaying featured millet information, quick navigation, and highlighted content using responsive **card-based layouts**.
+A welcoming landing screen featuring a **Kannada greeting** (ಸಿರಿ-ಧಾನ್ಯ ಹಬ್ಬಕ್ಕೆ ಸ್ವಾಗತ), **Quick Access** cards for all major modules, and a "**Why Millets?**" section highlighting the environmental and health benefits — 70% less water usage, climate resilience, and nutritional power.
 
 ### 📈 Mandi Watch
-- Tracks millet market prices across **five Karnataka cities** (Bengaluru, Davangere, Mysuru, Hubli, Shivamogga)
-- Displays **7-day historical price trends**
-- Graphical **sparkline visualizations** powered by `fl_chart`
-- City and millet filtering with live update indicators
+- Tracks millet market prices across **five Karnataka cities**: Bengaluru, Davangere, Mysuru, Hubli, and Shivamogga
+- **Live updates** with Gainers/Losers counters
+- Displays **current price, % change, daily high/low**
+- Graphical **sparkline trends** powered by `fl_chart`
+- Covers all major millets — Navane, Sajje, Baragu, Ragi, Oodalu, Saame
 
 ### 🍲 Recipe Lab
-- Traditional millet recipes with **ingredients & preparation steps**
-- **Category-based filtering** (by millet type, difficulty, dietary tags)
+- Traditional millet recipes in **English + Kannada** (e.g. Navane Dosa / ನವಣೆ ದೋಸೆ)
+- Each recipe shows **cook time, servings, and difficulty**
+- **Category filters** by millet type (Navane, Sajje, Baragu, Ragi…)
 - **Search** by millet type or dish name
-- **Bookmark** favorite recipes (persisted via `SharedPreferences`)
-- Tags like *Diabetic Friendly*, *High Fibre*, *Gluten Free*, *Vegan*, *High Protein*
+- **Bookmark** favorite recipes (persisted via `SharedPreferences`) — accessible under the *Saved* tab
+- Smart tags: *Diabetic Friendly*, *High Fibre*, *Low GI*, *Iron Rich*, *Calcium Rich*, *Gluten Free*, *Vegan*, *High Protein*
 
 ### ❤️ Health Benefits
-- Nutritional values and health benefits for each millet variety
-- **Glycemic Index Comparison** chart
-- Expandable cards for each millet (Navane, Sajje, Baragu, Ragi, Oodalu, Saame)
+- Backed-by-facts overview — "*why millets are nature's superfoods*"
+- **Expandable cards** for each millet variety with detailed nutrition
+- **Glycemic Index Comparison** chart (Lower GI = better blood sugar control)
+- Quick highlights: *Navane Controls Blood Sugar*, *Ragi — Nature's Calcium Bank*, *Sajje Powers Your Energy*, *Baragu — Heart-Healthy Grain*, *Saame for Weight Management*
 
 ### 🛒 Direct Buy — FPO Directory
-- Browse regional **Farmer Producer Organizations** with contact info
-- View FPO ratings, farmer counts, and specializations
-- **Direct call** and **Buy Direct** action buttons — cutting out middlemen
-- Filter FPOs by millet type
+- Browse regional **Farmer Producer Organizations** with full contact info
+- Filter FPOs by millet type (All FPOs / Navane / Sajje / Baragu…)
+- See **ratings, farmer counts, specializations, and certifications**
+- **Direct call** buttons and **Buy Direct** action — cutting out the middleman
+- Examples: *Davanagere Millet Farmers Cooperative* (⭐4.5, 320 farmers), *Shivamogga Siri Dhanya FPO* (⭐4.8, 215 farmers), *Bidar Millets Producer Organisation*
 
 ### 🎨 Additional UX Features
 - ✅ Pull-to-refresh on all data screens
-- ✅ Smooth bottom navigation across 5 sections
+- ✅ Smooth bottom navigation across 5 sections (Home, Mandi, Recipes, Health, Buy)
 - ✅ Responsive layouts for phone, tablet, web, and desktop
-- ✅ Earthy, agriculture-inspired visual theme
+- ✅ Earthy, agriculture-inspired visual theme with parchment backgrounds
 
 ---
 
 ## 📱 Screenshots
 
-| Mandi Watch | Recipe Lab |
-|:---:|:---:|
-| Real-time millet prices with sparklines | Traditional recipes with category filters |
+<table align="center">
+  <tr>
+    <td align="center"><b>Home Dashboard</b></td>
+    <td align="center"><b>Mandi Watch</b></td>
+    <td align="center"><b>Recipe Lab</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/home_screen.jpeg" alt="Home Screen" width="240"/></td>
+    <td><img src="assets/screenshots/mandi_watch.jpeg" alt="Mandi Watch" width="240"/></td>
+    <td><img src="assets/screenshots/recipe_lab.jpeg" alt="Recipe Lab" width="240"/></td>
+  </tr>
+  <tr>
+    <td align="center">Welcome screen with Quick Access cards and "Why Millets?" section</td>
+    <td align="center">Real-time millet prices with sparkline trends across 5 cities</td>
+    <td align="center">Traditional recipes with smart filters and bookmarking</td>
+  </tr>
+</table>
 
-| Health Benefits | Direct Buy (FPO Directory) |
-|:---:|:---:|
-| Nutritional info & glycemic index | Connect directly with regional FPOs |
-
-> 📸 Add screenshots to `assets/screenshots/` and reference them here, e.g.:
-> `![Mandi Watch](assets/screenshots/mandi_watch.png)`
+<table align="center">
+  <tr>
+    <td align="center"><b>Health Benefits</b></td>
+    <td align="center"><b>Direct Buy (FPO Directory)</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/health_benefits.jpeg" alt="Health Benefits" width="240"/></td>
+    <td><img src="assets/screenshots/direct_buy.jpeg" alt="Direct Buy" width="240"/></td>
+  </tr>
+  <tr>
+    <td align="center">Nutritional info & glycemic index comparison</td>
+    <td align="center">Connect directly with regional FPOs — cut the middleman</td>
+  </tr>
+</table>
 
 ---
 
@@ -295,6 +327,7 @@ The visual identity reflects Karnataka's traditional farming culture:
 - 🌿 **Millet-green accent colors** as the primary brand hue
 - ✍️ **Playfair Display** for headings — gives a traditional, editorial tone
 - 📖 **Nunito** for body text — modern, highly legible
+- 🪔 **Kannada bilingual elements** to honor regional roots
 - 📐 **Material Design 3** components for consistency and accessibility
 - 📱 **Responsive layouts** adapting from phone → tablet → desktop
 
@@ -304,24 +337,24 @@ The visual identity reflects Karnataka's traditional farming culture:
 
 | Local Name | English Name | Highlight |
 |---|---|---|
-| **Navane** | Foxtail Millet | Controls blood sugar |
-| **Sajje** | Pearl Millet | Powers your energy |
-| **Baragu** | Proso Millet | Heart-healthy grain |
-| **Ragi** | Finger Millet | Nature's calcium bank |
-| **Oodalu** | Barnyard Millet | High fibre, gluten-free |
-| **Saame** | Little Millet | Aids weight management |
+| **Navane** (ನವಣೆ) | Foxtail Millet | Controls blood sugar |
+| **Sajje** (ಸಜ್ಜೆ) | Pearl Millet | Powers your energy |
+| **Baragu** (ಬರಗು) | Proso Millet / Sorghum | Heart-healthy grain |
+| **Ragi** (ರಾಗಿ) | Finger Millet | Nature's calcium bank |
+| **Oodalu** (ಊದಲು) | Barnyard Millet | High fibre, gluten-free |
+| **Saame** (ಸಾಮೆ) | Little Millet | Aids weight management |
 
 ---
 
 ## 🗺 Roadmap
 
-- [x] Dashboard home screen
-- [x] Mandi Watch with 7-day price trends
-- [x] Recipe Lab with bookmarking
+- [x] Dashboard home screen with Kannada greeting
+- [x] Mandi Watch with sparkline price trends across 5 cities
+- [x] Recipe Lab with bookmarking and category filters
 - [x] Health Benefits with glycemic index comparison
-- [x] FPO Directory with direct contact
+- [x] FPO Directory with direct call & buy actions
 - [ ] **Live price API integration** (currently uses seed data)
-- [ ] **Multi-language support** (Kannada, Hindi, English)
+- [ ] **Multi-language support** (Kannada, Hindi, English toggle)
 - [ ] **User authentication** via Firebase Auth
 - [ ] **FPO order placement & tracking**
 - [ ] **AI-powered recipe suggestions** based on available ingredients
